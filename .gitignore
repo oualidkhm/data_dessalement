@@ -1,0 +1,12 @@
+# Ignorer tous les fichiers pkl sauf ceux dans best_models
+*.pkl
+
+# Ignorer dossiers inutiles
+data_evolution/
+interim models/
+.ipynb_checkpoints/
+__pycache__/
+
+# Autoriser le dossier best_models
+!best_models/
+!best_models/**
